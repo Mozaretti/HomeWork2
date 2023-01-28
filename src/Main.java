@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
     public static void task1(){
         System.out.println("Задача 1");
@@ -80,6 +81,10 @@ public class Main {
             int brownKraska2 = brownKraska * klass;
             System.out.println("В школе, где " + klass +  " классов, нужно " + whiteKraska2 +
                     " банок белой краски и " + brownKraska2 +" банок коричневой краски»");
+        }
+        public static void task6(){
+            System.out.println("Задача 6");
+
         }
 
 }
