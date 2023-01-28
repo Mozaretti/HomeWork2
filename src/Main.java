@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
     public static void task1(){
         System.out.println("Задача 1");
@@ -67,6 +68,18 @@ public class Main {
             System.out.println("За " + mount2 + " месяц"+ " машина произвела " + mountBootle + " бутылок.");
 
 
+        }
+        public static void task5(){
+            System.out.println("Задача 5");
+            byte totalKraska = 120;
+            byte whiteKraska = 2;
+            byte brownKraska = 4;
+            int klassKraska = whiteKraska + brownKraska;
+            int klass = totalKraska / klassKraska;
+            int whiteKraska2 = whiteKraska * klass;
+            int brownKraska2 = brownKraska * klass;
+            System.out.println("В школе, где " + klass +  " классов, нужно " + whiteKraska2 +
+                    " банок белой краски и " + brownKraska2 +" банок коричневой краски»");
         }
 
 }
