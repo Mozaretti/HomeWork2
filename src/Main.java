@@ -84,7 +84,14 @@ public class Main {
         }
         public static void task6(){
             System.out.println("Задача 6");
-
+            int banans = 5 * 80;
+            short milk = 105 * 2;
+            short iceCream = 2 * 100;
+            short eeg = 4 * 70;
+            int allProdukts = banans + milk + iceCream + eeg;
+            double allProdukts2 = allProdukts / 1000d;
+            System.out.println(allProdukts);
+            System.out.println(allProdukts2);
         }
 
 }
