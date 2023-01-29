@@ -6,9 +6,11 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
     public static void task1(){
         System.out.println("Задача 1");
+        System.out.println();
         byte fighter = 33;
         short man = 2346;
         int bananas = 5865;
@@ -21,9 +23,11 @@ public class Main {
         System.out.println("Прошли тестирование " + woman + " женщин.");
         System.out.println("В пакете сахара " + sugar + " кг.");
         System.out.println("В ведре налито " + water + " литров воды.");
+        System.out.println();
         }
         public static void task2(){
             System.out.println("Задача 2");
+            System.out.println();
             float salt = 27.12f;
             long stars = 987_678_965_549L;
             double sugar = 2.786;
@@ -36,10 +40,12 @@ public class Main {
             System.out.println(temperatura);
             System.out.println(bird);
             System.out.println(workers);
+            System.out.println();
 
         }
         public static void task3(){
             System.out.println("Задача 3");
+            System.out.println();
             byte ludmilsPavlovna = 23;
             byte annaSergeevna = 27;
             byte ekaterinaAndreevna = 30;
@@ -47,9 +53,11 @@ public class Main {
             int totalStudents = ludmilsPavlovna + annaSergeevna + ekaterinaAndreevna;
             int paperStudents = paper / totalStudents;
             System.out.println("На каждого ученика рассчитано " + paperStudents + " листов бумаги.");
+            System.out.println();
         }
         public static void task4(){
             System.out.println("Задача 4");
+            System.out.println();
             byte bootle = 16;
             byte time = 2;
             int oneMinuta = bootle / time;
@@ -67,11 +75,13 @@ public class Main {
             byte mount2 = 1;
             int mountBootle = dayBootle * mount;
             System.out.println("За " + mount2 + " месяц"+ " машина произвела " + mountBootle + " бутылок.");
+            System.out.println();
 
 
         }
         public static void task5(){
             System.out.println("Задача 5");
+            System.out.println();
             byte totalKraska = 120;
             byte whiteKraska = 2;
             byte brownKraska = 4;
@@ -81,17 +91,36 @@ public class Main {
             int brownKraska2 = brownKraska * klass;
             System.out.println("В школе, где " + klass +  " классов, нужно " + whiteKraska2 +
                     " банок белой краски и " + brownKraska2 +" банок коричневой краски»");
+            System.out.println();
         }
         public static void task6(){
             System.out.println("Задача 6");
+            System.out.println();
             int banans = 5 * 80;
             short milk = 105 * 2;
             short iceCream = 2 * 100;
             short eeg = 4 * 70;
             int allProdukts = banans + milk + iceCream + eeg;
             double allProdukts2 = allProdukts / 1000d;
-            System.out.println(allProdukts);
-            System.out.println(allProdukts2);
+            System.out.println(allProdukts+ " грамм");
+            System.out.println(allProdukts2+ " кг.");
+            System.out.println();
         }
+        public static void task7(){
+            System.out.println("Задача 7");
+            System.out.println();
+            int totalWeight = 7 * 1000;
+            short weight1 = 250;
+            short weight2 = 500;
+            int day1 = totalWeight / weight1;
+            int day2 = totalWeight / weight2;
+            System.out.println(day1 + " дней");
+            System.out.println(day2 + " дней");
+            int day3 = (day1 + day2) / 2;
+            System.out.println(day3 + " день");
+            System.out.println();
+
+        }
+
 
 }
